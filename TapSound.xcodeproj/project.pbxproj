@@ -11,6 +11,8 @@
 		3B125CD22864B4CC00BAADCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B125CD12864B4CC00BAADCB /* ContentView.swift */; };
 		3B125CD42864B4CD00BAADCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B125CD32864B4CD00BAADCB /* Assets.xcassets */; };
 		3B125CD72864B4CD00BAADCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B125CD62864B4CD00BAADCB /* Preview Assets.xcassets */; };
+		3B125CDE2864BBA400BAADCB /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B125CDD2864BBA400BAADCB /* SoundPlayer.swift */; };
+		3B125CE02866C55000BAADCB /* BackgoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B125CDF2866C55000BAADCB /* BackgoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3B125CD12864B4CC00BAADCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B125CD32864B4CD00BAADCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B125CD62864B4CD00BAADCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B125CDD2864BBA400BAADCB /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		3B125CDF2866C55000BAADCB /* BackgoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgoundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				3B125CCF2864B4CC00BAADCB /* TapSoundApp.swift */,
+				3B125CDF2866C55000BAADCB /* BackgoundView.swift */,
+				3B125CDD2864BBA400BAADCB /* SoundPlayer.swift */,
 				3B125CD12864B4CC00BAADCB /* ContentView.swift */,
 				3B125CD32864B4CD00BAADCB /* Assets.xcassets */,
 				3B125CD52864B4CD00BAADCB /* Preview Content */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B125CD22864B4CC00BAADCB /* ContentView.swift in Sources */,
+				3B125CDE2864BBA400BAADCB /* SoundPlayer.swift in Sources */,
 				3B125CD02864B4CC00BAADCB /* TapSoundApp.swift in Sources */,
+				3B125CE02866C55000BAADCB /* BackgoundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

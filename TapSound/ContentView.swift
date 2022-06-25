@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    // 音鳴らすためにインスタンス作成
+    let sounPlayer = SoundPlayer()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            BackgoundView(imageName: "background")
+            HStack {
+                Button(action: {
+                    // タップ時
+                    sounPlayer.cymbalPlay()
+                }) {
+                    Image("cymbal")
+                }
+                Button(action: {
+                    // タップ時
+                    sounPlayer.guitarPlay()
+                }) {
+                    Image("guitar")
+                }
+            }
+        }
     }
 }
 
